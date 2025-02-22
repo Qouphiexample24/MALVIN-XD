@@ -5,16 +5,16 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~UhwWVLpC#5Gyq7WarV3ulG5oU-UTuiWUsUAdf3UZ3l3YaJd7INd8",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
+BOT_NAME: process.env.BOT_NAME || "exampls bot v2",
 // add bot name here for menu
 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react   
 
 STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
@@ -26,13 +26,13 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "233533717646",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
+OWNER_NAME: process.env.OWNER_NAME || "example tech",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✦ɴᴇxᴜs ᴛᴇᴄʜ✦ ɪɴᴄ*",
+DESCRIPTION: process.env.DESCRIPTION || "> *get in touch with him here on whatsapp at +233533717646*",
 // add bot owner name    
 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/bddvfr.jpg",
@@ -41,13 +41,13 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/bddvfr.jpg",
 MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gld2vo.jpg",
 // dont change menu image
 
-LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD",
+LIVE_MSG: process.env.LIVE_MSG || "> ✦example bot✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦example✦ ғʀᴏᴍ example ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD",
 // add alive msg here 
 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 
 ANTI_BAD: process.env.ANTI_BAD || "false",
@@ -62,7 +62,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto react on status (still testing)
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by example pls view my status as well*",
 // set the auto reply massage on status reply    
 
 MODE: process.env.MODE || "public",
@@ -86,13 +86,13 @@ HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "true",
 // make it true or fasle for only react on owner msg only 
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
@@ -113,7 +113,7 @@ DEV: process.env.DEV || "263714757857",
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat 
 
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
